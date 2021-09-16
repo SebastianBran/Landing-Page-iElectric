@@ -41,55 +41,6 @@ header,
     top: 30px;
     width: 40px;
 }
-.hero-page{
-    width: 100%;
-    height: 495px;
-    background-image: url(../images/tecnico.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}   
-
-.info-app{
-    position:relative;
-    width:100%;
-    height: 100%;
-    background-color:transparent;
-}
-.info-app img{
-    position: absolute;
-    width:450px;
-    height: 474px;
-    left: 46%;
-    top: 5%;
-    z-index: 1;
-}
-
-.text-initial{
-    background-color:#A2DBFA73;
-    height:51%;
-    width:30%;
-    position:absolute;
-    z-index: 2;
-    top: 21%;
-    left: 2%;
-}
-
-.text-initial h2{
-    font-size:200%;
-    padding: -5%;
-    text-align:center;
-    background-color:transparent;
-    font-weight: bold;
-
-}
-
-.text-initial p {
-    background-color:transparent;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 300%;
-}
 #toggle-button:hover {
     background-color: rgba(255, 255, 255, 0.363)
 }
@@ -151,6 +102,58 @@ header,
     width: 157px;
 }
 /******** END NAVBAR ********/    
+
+/******** HERO PAGE ********/
+.hero-page{
+    width: 100%;
+    height: 495px;
+    background-image: url(../images/tecnico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.info-app{
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color:transparent;
+}
+.info-app img{
+    position: absolute;
+    width:450px;
+    height: 474px;
+    left: 46%;
+    top: 5%;
+    z-index: 1;
+}
+
+.text-initial{
+    background-color:transparent;
+    height:51%;
+    width:52%;
+    position:absolute;
+    z-index: 2;
+    top: 21%;
+    left: 2%;
+}
+
+.text-initial h2{
+    font-size:200%;
+    padding: -5%;
+    text-align:center;
+    background-color:transparent;
+    font-weight: bold;
+
+}
+
+.text-initial p {
+    background-color:#A2DBFA73;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 300%;
+}
+/******** END HERO PAGE ********/
 
 @media (min-width: 576px) {
 
