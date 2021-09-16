@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-/******** NAVBAR ********/    
+/******** NAVBAR ********/  
+  
 header {
     background-color: #A2DBFA;
     position: sticky;
@@ -114,6 +115,7 @@ header,
 
 .title-section {
     text-align: center;
+    font-size: 36px;
     margin: 2vw;
 }
 
@@ -139,7 +141,6 @@ header,
 /******** SERVICES ********/  
 
 .services{
-    /* margin: 40px auto 40px; */
     text-align: center;
     padding: 40px 0;
     color: #434343;
@@ -194,7 +195,11 @@ header,
 }
 
 @media (min-width: 768px) {
-    /******** PURPOSE ********/         
+    /******** PURPOSE ********/   
+    .title-section {
+        font-size: 55px;
+    }   
+
     .purpose-box{
         padding: 0 20px 20px;
     }
