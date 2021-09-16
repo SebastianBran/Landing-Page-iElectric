@@ -66,9 +66,9 @@ header,
 }
 
 .text-initial{
-    background-color:transparent;
+    background-color:#A2DBFA73;
     height:51%;
-    width:52%;
+    width:30%;
     position:absolute;
     z-index: 2;
     top: 21%;
@@ -85,7 +85,7 @@ header,
 }
 
 .text-initial p {
-    background-color:#A2DBFA73;
+    background-color:transparent;
     text-align: center;
     margin-top: 20px;
     font-size: 300%;
