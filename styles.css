@@ -121,22 +121,21 @@ header,
 
 .td-purpose-img{
     width: 150px;
-    height: 180px;
-    background-image: url('https://www.google.se/images/srpr/logo4w.png');
+    height: 180px;    
     background-repeat:no-repeat;
     background-size:250px 180px;
 }
 
+.td-purpose-img1{
+    background-image: url('images/purpose_img1.png');
+}
+
+.td-purpose-img2{
+    background-image: url('images/purpose_img2.png');
+}
+
 .title-section {
     text-align: center;
-}
-
-# {
-    
-}
-
-# {
-    
 }
 
 /******** END PURPOSE ********/   
