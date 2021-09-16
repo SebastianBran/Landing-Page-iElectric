@@ -102,7 +102,44 @@ header,
     height: 50px;
     width: 157px;
 }
-/******** END NAVBAR ********/    
+
+/******** END NAVBAR ********/   
+
+
+
+/******** PURPOSE ********/  
+#purpose{
+    margin: 40px auto 40px;
+}
+
+#table-purpose {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 600px;
+}
+
+.td-purpose-img{
+    width: 150px;
+    height: 180px;
+    background-image: url('https://www.google.se/images/srpr/logo4w.png');
+    background-repeat:no-repeat;
+    background-size:250px 180px;
+}
+
+.title-section {
+    text-align: center;
+}
+
+# {
+    
+}
+
+# {
+    
+}
+
+/******** END PURPOSE ********/   
 
 @media (min-width: 576px) {
 
