@@ -140,7 +140,51 @@ header,
         transition: none;
         width: auto;
     }
+ 
+.about-us{
+    background-color:white;
+    height:700px;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+}
 
+.about-us-item{
+    width: 32%;
+    height: 65%;
+    justify-content: center;
+    text-align:center;
+    background-color:transparent;
+    color:black;
+}
+.about-us h3{
+    font-size: 55px;
+    margin-bottom: 5%;
+    background-color:transparent;
+    font-weight: 100;
+    font-family: 'Bebas Neue';
+}
+.about-us-item ul{
+    margin-top:3%;
+    text-align: left;
+    font-size: 22px;
+    background-color:transparent;
+}
+.about-us-item ul li{
+    background-color:transparent;
+}
+.about-us-item p{
+    font-size: 22px;
+    background-color:transparent;
+    
+}
+.line-about{
+    height:65%;
+    width:4px;
+    background-color:white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
     #menu ul li {
         display: inline;
         margin-left: 30px;
@@ -161,6 +205,581 @@ header,
     /******** END NAVBAR ********/
 }
 
-@media (min-width: 1400px) {
 
+@media (max-width:1261px){
+    .about-us-item ul{
+        margin-top: none;
+    }
+    .about-us{
+        padding-top: 5%;
+    }
+}
+@media (max-width:1204px){
+    .about-us h3{
+        margin-bottom: -2%;
+        font-size: 50px;
+    }
+}
+
+@media (max-width:997px){
+    .about-us-item p{
+        font-size: 22px;
+    }
+    .about-us-item ul li{
+        font-size: 19px;
+    }
+}
+
+@media (max-width:961px){
+    .info-app img {
+        width: 410px;
+        height: 441px;
+    }
+}
+
+@media (max-width:915px){
+
+}
+@media (max-width:908px){
+    .about-us{
+        height: 437px;
+    }
+    .info-app img{
+        left: 40%;
+    }
+
+}
+
+@media (max-width:843px){
+    .about-us h3 {
+        font-size: 3em;
+    }
+    .about-us-item p {
+        font-size: 1.3em;
+    }
+    .about-us {
+        height: 400px;
+    }
+}
+@media (max-width: 810px){
+    .about-us {
+    height: 550px;
+    }
+}
+@media (max-width: 810px){
+    .about-us {
+    height: 550px;
+    }
+}
+
+@media (max-width:675px){
+    .hero-page{
+        height: 31pc;
+    }
+    .info-app{
+        position:static;
+        display: block;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        
+    }
+    .info-app img{
+        position: static;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        width: 100px;
+        height: 100px;
+        width: 180px;
+        height: 180px;
+        margin-top: 9px;
+    }
+    
+    .text-initial{
+        position: static;
+        z-index: 0;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        padding: 0% 4%;
+    }
+    .text-initial h2{
+        font-size: 19px;
+    }
+    .text-initial p{
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    .about-us{
+        height: auto;
+        width: 100%;
+        display: block !important;
+    }
+    .about-us h3{
+        font-size: 2em;
+        margin: 6% 0%;
+
+    }
+    .about-us p{
+        font-size: 1em;
+        text-align: inherit;
+    }
+    .about-us ul{
+        margin-bottom: 8%;
+    }
+    .about-us ul li{
+        font-size: 0.7em;
+    }
+    .about-us-item{
+        width: 100%;
+        padding: 0% 10%;
+        margin: 0% 0%;
+    }
+    .line-about{
+        margin-left: 10%;
+        width: 80%;
+        height: 4px;
+    }
+}
+
+@media (max-width:375px){
+    .about-us-item {
+        margin: 0% 0%;
+    }
+}
+@media (max-width:320px){
+    .hero-page {
+        height: 33pc;
+    }
+}
+.barra-navegacion{
+    background-color: #E42322;
+    padding: 0 !important;
+    margin: 0; 
+    color: white;
+}
+.button-bar{
+    background-color:transparent;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color:black;
+    border : none;
+    display: none;
+}
+
+
+.barra-navegacion li{
+    border: none;
+    font-size: 150%;
+    background-color: #E42322;
+    color: white;
+}
+
+.barra-navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 580;
+}
+
+.container_linea{
+    background-color: #E42322;
+}
+
+.lineaxd{
+    background-color:transparent;
+    height: 60%;
+    width: 2px;
+    margin-top: 12px;
+    
+}
+
+.recuadro-celeste{
+    width: 100%;
+    height: 495px;
+    background-image: url(../assets/tecnico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.info-app{
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color:transparent;
+}
+.info-app img{
+    position: absolute;
+    width:450px;
+    height: 474px;
+    left: 46%;
+    top: 5%;
+    z-index: 1;
+}
+
+.texto-inicio{
+    background-color:transparent;
+    height:51%;
+    width:52%;
+    position:absolute;
+    z-index: 2;
+    top: 21%;
+    left: 2%;
+}
+
+.texto-inicio h2{
+    font-size:200%;
+    padding: -5%;
+    text-align:center;
+    background-color:transparent;
+    font-weight: bold;
+
+}
+
+.texto-inicio p {
+    background-color:#A2DBFA73;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 300%;
+}
+
+.botones-registro {
+    position:absolute;
+    align-items: center;
+    background-color:transparent;
+    left: 73%;
+    top: 20%;
+    z-index: 2;
+    
+}
+.botones-registro button{
+    margin-top:20px;
+    border-radius:20px;
+    height: 100px;
+    width: 85%;
+    background-color:#34C900;
+    color:white;
+    border: none;
+    font-size: 20px;
+}
+.botones-registro h4{
+    background-color:transparent;
+    font-size:30px;
+}
+.boton-registro button a{
+    font-size:40px;
+}
+
+.imgLogo{
+    margin-left: 60px;
+}
+
+.que-ofrecemos{
+    background-color:white;
+    width: 100%;
+    height: 600px;
+}
+.titulo-que-ofrecemos{
+    background-color:transparent;
+    background-color:white;
+    width:100%;
+    justify-content: center;
+    margin-top:60px;
+}
+.titulo-que-ofrecemos h3{
+    background-color:transparent;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.caracteristicas{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:4%;
+    padding-right:4%;
+}
+.caracteristicas-items{
+    width:25%;
+    height: 100%;
+    background-color:transparent;
+    align-items: center;
+}
+.caracteristicas-items img{
+    width: 90px;
+    height:90px;
+    margin-top:22px;
+}
+.caracteristicas-items h3{
+    font-size: 28px;
+    margin-top:20px;
+}
+
+.caracteristicas-items p{
+    font-size:18px;
+    margin-top:34px;
+    padding: 0px 20px 0px 20px;
+    text-align:justify;
+}
+
+.linea-caracteristica{
+    width:4px;
+    height: 100%;
+    background-color:#E5E5E5;
+}
+
+.quienes-somos{
+    background-color:white;
+    height:700px;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+}
+
+.quienes-somos-item{
+    width: 32%;
+    height: 65%;
+    justify-content: center;
+    text-align:center;
+    background-color:transparent;
+    color:black;
+}
+.quienes-somos h3{
+    font-size: 55px;
+    margin-bottom: 5%;
+    background-color:transparent;
+    font-weight: 100;
+    font-family: 'Bebas Neue';
+}
+.quienes-somos-item ul{
+    margin-top:3%;
+    text-align: left;
+    font-size: 22px;
+    background-color:transparent;
+}
+.quienes-somos-item ul li{
+    background-color:transparent;
+}
+.quienes-somos-item p{
+    font-size: 22px;
+    background-color:transparent;
+    
+}
+.linea-quienes{
+    height:65%;
+    width:4px;
+    background-color:white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.institucion-asociada{
+    width:100%;
+    height: 450px;
+    background-image: url("./../assets/fondo-upc.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo-institucion{
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.719);
+}
+
+.contenido-institucion{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.contenido-institucion img{
+    width: 330px;
+    height: 330px;
+    margin-right: -5%;
+}
+.info-institucion{
+    background-color:transparent;
+    width:40%;
+    color:white;
+}
+.info-institucion h3{
+    background-color:transparent;
+    font-weight:bold;
+    font-size: 55px;
+}
+.info-institucion p{
+    background-color:transparent;
+    font-size: 22px;
+    text-align: center;
+    margin-top:6%;
+}
+
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color:#484848;
+    color:white;
+    justify-content: space-between;
+}
+.linea-footer{
+    width: 80%;
+    height: 1px;
+    margin-left: 11%;
+    margin-bottom: 7%;
+}
+
+.footer p{
+    background-color:transparent;
+    font-size:18px;
+    text-align: center;
+}
+
+.footer-info{
+    background-color:transparent;
+    justify-content:space-evenly;
+    margin-top:1px;
+}
+
+.footer-item{
+    background-color:transparent;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    margin-top:4%;
+}
+.footer-item h5{
+    background-color:transparent;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.contenedor-iconos{
+    background-color:transparent;
+    justify-content:space-evenly;
+}
+.footer-item svg{
+    background-color:transparent;
+    
+}
+.apps{
+    background-color:transparent;
+    flex-direction: column;
+}
+
+.avalible-1{
+    background-color:transparent;
+    justify-content:space-evenly;
+}
+.avalible-1 img{
+    margin:1%;
+}
+.avalible-2{
+    margin-top:4px;
+    background-color:transparent;
+    justify-content:center;
+    
+}
+
+@media (max-width:1261px){
+    .about-us-item ul{
+        margin-top: none;
+    }
+    .about-us{
+        padding-top: 5%;
+    }
+}
+@media (max-width:1204px){
+    .about-us h3{
+        margin-bottom: -2%;
+        font-size: 50px;
+    }
+}
+
+@media (max-width:997px){
+    .about-us-item p{
+        font-size: 22px;
+    }
+    .about-us-item ul li{
+        font-size: 19px;
+    }
+}
+
+@media (max-width:908px){
+    .about-us{
+        height: 437px;
+    }
+}
+
+@media (max-width:843px){
+    .about-us h3 {
+        font-size: 3em;
+    }
+    .about-us-item p {
+        font-size: 1.3em;
+    }
+ 
+    .about-us {
+        height: 400px;
+    }
+
+}
+@media (max-width: 810px){
+    .about-us {
+    height: 550px;
+    }
+}
+@media (max-width: 810px){
+    .about-us {
+    height: 550px;
+    }
+}
+
+@media (max-width:675px){
+    .about-us{
+        height: auto;
+        width: 100%;
+        display: block !important;
+    }
+    .about-us h3{
+        font-size: 2em;
+        margin: 6% 0%;
+
+    }
+    .about-us p{
+        font-size: 1em;
+        text-align: inherit;
+    }
+    .about-us ul{
+        margin-bottom: 8%;
+    }
+    .about-us ul li{
+        font-size: 0.7em;
+    }
+    .about-us-item{
+        width: 100%;
+        padding: 0% 10%;
+        margin: 0% 0%;
+    }
+    .line-about{
+        margin-left: 10%;
+        width: 80%;
+        height: 4px;
+    }
+
+}
+
+@media (max-width:375px){
+
+    .about-us-item {
+        margin: 0% 0%;
+    }
 }
