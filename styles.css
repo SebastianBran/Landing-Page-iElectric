@@ -149,6 +149,7 @@ header,
     /******** END NAVBAR ********/
       
 }
+/******** US ********/
 .about-us{
     background-color:white;
     height:300px;
@@ -183,14 +184,9 @@ header,
     font-size: 22px;
     background-color:transparent;
 }
-.about-us-item ul li{
-    background-color:transparent;
-}
 .about-us-item p{
     font-size: 22px;
-    background-color:transparent;
-    
-    
+    background-color:transparent; 
 }
 .line-about{
     height:65%;
@@ -227,25 +223,14 @@ header,
         font-size: 3em;
     }
     .about-us-item p {
-        font-size: 1.3em;
+        font-size: 1em;
     }
-  
     .about-us {
         height: 400px;
     }
 
 }
-@media (max-width: 810px){
-    .about-us {
-    height: 550px;
-    }
-}
-@media (max-width: 810px){
-    .about-us {
-    height: 550px;
-    }
-}
-@media (max-width:675px){
+@media (max-width:725px){
     .about-us{
         height: auto;
         width: 100%;
@@ -276,11 +261,10 @@ header,
         width: 80%;
         height: 4px;
     }
-
 }
 @media (max-width:375px){
     .about-us-item {
         margin: 0% 0%;
     }
 }
-
+/******** END US ********/
