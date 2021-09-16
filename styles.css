@@ -106,8 +106,6 @@ header,
 
 /******** END NAVBAR ********/   
 
-
-
 /******** PURPOSE ********/  
 #purpose{
     margin: 40px auto 40px;
@@ -137,6 +135,76 @@ header,
 }
 
 /******** END PURPOSE ********/   
+
+/******** HERO PAGE ********/
+.hero-page{
+    width: 100%;
+    height: 495px;
+    background-image: url(../images/tecnico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto 0 auto;
+}  
+
+.info-app{
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color:transparent;
+}
+
+.text-initial{
+    background-color:#A2DBFA73;
+    height:400px;
+    width:400px;
+    position:relative;
+    z-index: 2;
+    top: 11%;
+    left: 6%;
+    display: flex;
+    margin: auto 0 auto;
+    size: 200px;
+}
+
+.text-initial > p {
+    background-color:transparent;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+@media (max-width:675px){
+    .hero-page {
+        height: 25pc;
+    }
+    
+    .info-app{
+        position:static;
+        display: flex;
+        height: left;
+        width: 100%;    
+    }
+
+    .text-initial{
+        position: static;
+        margin: auto auto 20px ;
+        height: 121px;
+        width: 90%;
+    }
+
+    .text-initial > p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:320px){
+    .hero-page {
+        height: 33pc;
+    }
+}
+/******** END HERO PAGE ********/
 
 /******** SERVICES ********/  
 
