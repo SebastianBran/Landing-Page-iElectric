@@ -138,61 +138,77 @@ header,
 
 /******** SERVICES ********/  
 
-#service{
-    margin: 40px auto 40px;
+.services{
+    /* margin: 40px auto 40px; */
+    text-align: center;
+    padding: 40px 0;
+    color: #434343;
+    background: #f1f1f1;
 }
 
-#table-services {
-    margin-left: auto;
-    margin-right: auto;
+.inner-service{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-service{
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 15px;
-    max-width: 800px;
 }
 
-.td-service-img{
-    height: 140px;    
-    background-repeat:no-repeat;
-    background-size:250px 180px;
+.service {
+    background: #fff;
+    padding: 30px;
 }
 
-
-.td-service-img1{
-    background-image: url('images/services_img_1.png');
+.services img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-.td-service-img2{
-    background-image: url('images/services_img_2.png');
-}
-
-.td-service-img3{
-    background-image: url('images/services_img_3.png');
+.service-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
 }
 
 /******** END SERVICES ********/ 
 
 @media (min-width: 576px) {
-    /******** PURPOSE ********/  
-        
+    /******** PURPOSE ********/          
     .purpose-box{
         padding: 0 0px 0px;
     }
-
     /******** END PURPOSE ********/
 }
 
 @media (min-width: 768px) {
-    /******** PURPOSE ********/  
-        
+    /******** PURPOSE ********/         
     .purpose-box{
         padding: 0 20px 20px;
     }
-
     /******** END PURPOSE ********/
-    
+   
+    /******** SERVICES ********/  
+    .col-service{
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+    /******** END SERVICES ********/
 }
 
 @media (min-width: 992px) {
-    
 }
 
 @media (min-width: 1200px) {
@@ -238,6 +254,7 @@ header,
         font-size: 25px;
     }
     /******** END NAVBAR ********/
+ 
 }
 
 @media (min-width: 1400px) {
