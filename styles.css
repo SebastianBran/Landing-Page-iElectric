@@ -41,6 +41,7 @@ header,
     top: 30px;
     width: 40px;
 }
+
 #toggle-button:hover {
     background-color: rgba(255, 255, 255, 0.363)
 }
@@ -102,7 +103,6 @@ header,
     width: 157px;
 }
 /******** END NAVBAR ********/    
-
 /******** HERO PAGE ********/
 .hero-page{
     width: 100%;
@@ -112,7 +112,6 @@ header,
     background-position: center;
     background-repeat: no-repeat;
 }   
-
 .info-app{
     position:relative;
     width:100%;
@@ -129,9 +128,9 @@ header,
 }
 
 .text-initial{
-    background-color:transparent;
+    background-color:#A2DBFA73;
     height:51%;
-    width:52%;
+    width:30%;
     position:absolute;
     z-index: 2;
     top: 21%;
@@ -148,11 +147,11 @@ header,
 }
 
 .text-initial p {
-    background-color:#A2DBFA73;
+    background-color:transparent;
     text-align: center;
     margin-top: 20px;
     font-size: 300%;
-}
+
 /******** END HERO PAGE ********/
 
 @media (min-width: 576px) {
