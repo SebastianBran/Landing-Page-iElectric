@@ -112,55 +112,76 @@ header,
     background-position: center;
     background-repeat: no-repeat;
     margin: auto 0 auto;
-}   
+}  
+
 .info-app{
     position:relative;
     width:100%;
     height: 100%;
     background-color:transparent;
 }
-.info-app img{
-    position: absolute;
-    width:450px;
-    height: 474px;
-    left: 46%;
-    top: 5%;
-    z-index: 1;
-}
 
 .text-initial{
     background-color:#A2DBFA73;
-    height:20vw;
-    width:20vw;
-    position:absolute;
+    height:400px;
+    width:400px;
+    position:relative;
     z-index: 2;
     top: 11%;
-    left: 2%;
+    left: 6%;
     display: flex;
     margin: auto 0 auto;
-    size: 3.5vw;
+    size: 200px;
 }
 
-.text-initial p {
+.text-initial > p {
     background-color:transparent;
     text-align: center;
-    margin: auto 0 auto;
+    margin: auto;
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 55px;
 }
 
-/******** END HERO PAGE ********/
+@media (max-width:675px){
+    .hero-page {
+        height: 25pc;
+    }
+    
+    .info-app{
+        position:static;
+        display: flex;
+        height: left;
+        width: 100%;    
+    }
 
+    .text-initial{
+        position: static;
+        margin: auto auto 20px ;
+        height: 121px;
+        width: 90%;
+    }
+
+    .text-initial > p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:320px){
+    .hero-page {
+        height: 33pc;
+    }
+}
+/******** END HERO PAGE ********/
 @media (min-width: 576px) {
 
 }
 
-@media (min-width: 768px) {
-    
+@media (min-width: 768x) {
+
 }
 
 @media (min-width: 992px) {
-    
+
 }
 
 @media (min-width: 1200px) {
@@ -207,7 +228,6 @@ header,
     }
     /******** END NAVBAR ********/
 }
-
 @media (min-width: 1400px) {
 
 }
