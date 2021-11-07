@@ -136,6 +136,18 @@ header,
 
 /******** END PURPOSE ********/   
 
+/******** ABOUT THE PRODUCT ********/  
+#about-the-product {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#title-about-the-product {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+/******** END ABOUT THE PRODUCT ********/  
+
 /******** HERO PAGE ********/
 .hero-page{
     width: 100%;
@@ -462,6 +474,30 @@ header,
     margin-right: 3%;
     margin-left: 3%;
 }
+/******** END US *********/
+
+/******** ABOUT THE TEAM *********/
+#about-the-team {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#title-about-the-team {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+/******** END ABOUT THE TEAM *********/
 
 @media (max-width:1261px) {
     .about-us-item ul {
